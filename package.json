@@ -17,10 +17,13 @@
     "type": "git"
   },
   "dependencies": {
-    "@vestibule-link/bridge": "^1.0.0",
     "express": "^4.17.1"
   },
+  "peerDependencies": {
+    "@vestibule-link/bridge": "^1.0.0"
+  },
   "devDependencies": {
+    "@vestibule-link/bridge": "^1.0.0",
     "@types/chai": "^4.2.0",
     "@types/express": "^4.17.0",
     "@types/mocha": "^5.2.7",
