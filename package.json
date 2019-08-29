@@ -1,6 +1,6 @@
 {
   "name": "@vestibule-link/bridge-http",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -19,18 +19,18 @@
     "express": "^4.17.1"
   },
   "peerDependencies": {
-    "@vestibule-link/bridge": "^1.0.0"
+    "@vestibule-link/bridge": "^1.1.0"
   },
   "devDependencies": {
-    "@vestibule-link/bridge": "^1.0.0",
     "@types/chai": "^4.2.0",
-    "@types/express": "^4.17.0",
+    "@types/express": "^4.17.1",
     "@types/mocha": "^5.2.7",
     "@types/node": "^12.7.2",
+    "@vestibule-link/bridge": "^1.1.0",
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
     "mocha": "^6.2.0",
     "ts-node": "^8.3.0",
-    "typescript": "^3.5.3"
+    "typescript": "^3.6.2"
   }
 }
