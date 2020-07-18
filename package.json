@@ -23,14 +23,14 @@
   },
   "devDependencies": {
     "@types/chai": "^4.2.11",
-    "@types/express": "^4.17.3",
+    "@types/express": "^4.17.7",
     "@types/mocha": "^7.0.2",
-    "@types/node": "^12.12.30",
+    "@types/node": "^12.12.50",
     "@vestibule-link/bridge": "^1.1.3",
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
-    "mocha": "^7.1.1",
-    "ts-node": "^8.7.0",
-    "typescript": "^3.8.3"
+    "mocha": "^7.2.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
   }
 }
