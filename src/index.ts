@@ -8,14 +8,15 @@ let server: Server
 
 let moduleId: symbol | undefined;
 export function startModule() {
-    if (!moduleId){
+    if (!moduleId) {
         moduleId = registerModule({
             name: 'http',
             init: async () => {
                 await new Promise((resolve, reject) => {
+                    const httpPort = Number(VESTIBULE_HTTP_PORT)
                     try {
-                        server = app.listen(Number(VESTIBULE_HTTP_PORT), () => {
-                            console.log('Http started on port %d', VESTIBULE_HTTP_PORT);
+                        server = app.listen(httpPort, () => {
+                            console.log('Http started on port %d', httpPort);
                             resolve();
                         })
                     } catch (err) {
